@@ -1,0 +1,152 @@
+
+ 
+ 
+ .carousel-inner img {
+   width: 100%;
+  
+}
+
+.carousel-inner{
+height: auto;
+
+}
+
+.container p{
+   text-align: justify;
+}
+
+.loguito{
+   width: 25%;
+   height: 25%;
+}
+
+
+.ico-tam{
+   width: 25px;
+   height: 25px;  }
+
+.container row col h2{
+  margin-top: 20px; }
+ 
+  
+  
+ /* estilo aplicado a card de boostrap en archivo que-hacer.html  */
+.bg-miestilo {
+   background-color:#74c9d2;
+   font-family: cursive;
+   font-style: italic;
+   font-weight: bolder;
+   font-size: 20px;
+   color: #3399ff;
+   height: 120px;
+   border-style: solid;
+   border-radius: 20px;
+   border-color: rgb(45, 155, 149);
+  /* align-content: center;*/
+
+}
+/*  footer  */
+.ubica{
+   align-items: center;
+   font-family: sans-serif;
+   font-weight: bold;
+   
+   
+}
+.footer{
+
+      color: rgb(132, 132, 136);
+      background-color: #1A1A1A;
+      width: 100%;
+      padding: unset;
+      cursor: pointer;
+      
+  }
+  h1 {
+   text-align: center;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.cards-container {
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   margin-bottom: 2rem;
+}
+
+.card {
+   width: 40%;
+   border: 1px solid lightgrey;
+   padding: 1rem;
+   border-radius: 5px;
+}
+
+.card-title, .form-group {
+   margin: 0px;
+   margin-bottom: 1rem;
+}
+
+/*  ventanas tipo modal  y progress bar*/
+.btn {
+   background-color: rgb(212, 209, 209); 
+   width: 25%;
+   height: 25%;
+    color: black; 
+   border: 2px solid #2f76fa;
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0,0,0,0.6);
+}
+
+.modalA {
+   width: 50%;
+   height: auto;
+}
+
+.card-total {
+   margin: auto;
+   background-color: white;
+   color: black;
+   width: 100%;
+}
+
+.items {
+   overflow-y: auto;
+   height: 100px;
+   margin-bottom: 1rem;
+}
+
+.display-none {
+   display: none;
+}
+
+.hidden {
+   visibility: hidden;
+}
+#myProgress {
+   position: relative;
+   width: 100%;
+   height: 30px;
+   background-color: grey;
+}
+#myBar {
+   margin-top: 50%;
+   position:relative;
+   width: 1%;
+   height: 100%;
+   background-color: rgb(24, 140, 248);
+}
